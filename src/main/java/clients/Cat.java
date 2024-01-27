@@ -36,5 +36,11 @@ import java.time.LocalDate;
         public String toString() {
             return super.toString()+"Discount("+discount+")";
         }
+
+        @Override
+        public void fly() {
+            System.out.println("!!!I can't fly");
+        }
     }
+
 

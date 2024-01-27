@@ -46,6 +46,27 @@ public class Main {
             System.out.println(i + " "+ animal);
             i++;
         }
+        System.out.println("~~~~~~~~~~~~~~~~~~HW1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("Bird");
+        Bird bird = new Bird();
+        bird.fly();
+        bird.toGo();
+        bird.swim();
+        System.out.println("Duck");
+        Duck duck = new Duck();
+        duck.fly();
+        duck.swim();
+        duck.toGo();
+        System.out.println("Cat");
+        catty.fly();
+        catty.toGo();
+        catty.swim();
+        System.out.println("Dog");
+        goodBoy.fly();
+        goodBoy.toGo();
+        goodBoy.swim();
+
+
 
     }
 }

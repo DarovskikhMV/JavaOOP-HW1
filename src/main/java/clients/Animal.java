@@ -76,6 +76,15 @@ public class Animal {
     public String toString() {
         return String.format("nickName = %s, bd = %s, owner = %s, illness = %s", nickName, birthDate, owner, illness);
     }
+    public void toGo() {
+        System.out.println("I'm going");
+    }
+    public void fly(){
+        System.out.println("I can fly");
+    }
+    public void swim(){
+        System.out.println("Wow i'm swim");
+    }
 }
 
 
